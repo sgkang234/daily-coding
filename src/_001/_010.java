@@ -1,0 +1,20 @@
+package _001;
+
+// 26.03.16
+// 백준 11382
+// A+B+C를 출력
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class _010 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        String[] input = br.readLine().split(" ");
+        long a = Integer.parseInt(input[0]);
+        long b = Integer.parseInt(input[1]);
+        long c = Integer.parseInt(input[2]);
+        System.out.println(a+b+c);
+    }
+}
