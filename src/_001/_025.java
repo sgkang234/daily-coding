@@ -2,7 +2,7 @@ package _001;
 
 // 2026.03.20
 // 백준 15552
-// StringBuilder를 사영해 더 빠른 처리하는 프로그램
+// StringBuilder를 사용해 더 빠른 처리하는 프로그램
 
 import java.io.BufferedReader;
 import java.io.IOException;
