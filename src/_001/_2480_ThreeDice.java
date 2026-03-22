@@ -11,7 +11,7 @@ import java.util.Scanner;
 같은 눈이 2개만 나오는 경우에는 1,000원+(같은 눈)×100원의 상금을 받게 된다.
 모두 다른 눈이 나오는 경우에는 (그 중 가장 큰 눈)×100원의 상금을 받게 된다.
 */
-public class _019 {
+public class _2480_ThreeDice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
