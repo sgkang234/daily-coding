@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 26.03.19
 // 백준 2739
@@ -6,7 +6,7 @@ package _001;
 
 import java.util.Scanner;
 
-public class _020 {
+public class _2739_MultiplicationTable {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int num = scanner.nextInt();
