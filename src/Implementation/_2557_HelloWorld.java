@@ -2,7 +2,7 @@ package Implementation;
 
 // 26.03.11
 // 백준 2557번
-// Hello World! 출력
+//  "Hello World!" 출력하는 프로그램
 
 import java.io.BufferedWriter;
 import java.io.IOException;
