@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 26.03.16
 // 백준 18108번
@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class _007 {
+public class _18108_불기연도 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int year = Integer.parseInt(br.readLine());
