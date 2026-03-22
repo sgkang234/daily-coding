@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 26.03.18
 // 백준 2884
@@ -9,7 +9,7 @@ package _001;
 
 import java.util.Scanner;
 
-public class _017 {
+public class _2884_AlarmClock {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int h = scanner.nextInt();
