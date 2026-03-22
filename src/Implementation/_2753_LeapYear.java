@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 26.03.18
 // 백준 2753
@@ -7,7 +7,7 @@ package _001;
 
 import java.util.Scanner;
 
-public class _015 {
+public class _2753_LeapYear {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         int year = scanner.nextInt();
