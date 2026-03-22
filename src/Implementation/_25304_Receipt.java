@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 2026.03.20
 // 백준 25304
@@ -8,7 +8,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class _023 {
+public class _25304_Receipt {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int x = Integer.parseInt(br.readLine());
