@@ -1,4 +1,4 @@
-package _001;
+package Implementation;
 
 // 2026.03.20
 // 백준 15552
@@ -9,7 +9,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class _025 {
+public class _15552_FastAPlusB {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
