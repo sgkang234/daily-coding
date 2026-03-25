@@ -16,12 +16,5 @@ public class _1001_AMinusB {
         int B = Integer.parseInt(input[1]);
 
         System.out.println(A - B);
-
-        /*
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println(a-b);
-         */
     }
 }
