@@ -8,20 +8,13 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class _10998_AMultiplyB {
+public class _10998_ATimesB {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        String[] input = br.readLine().split(" "); // A B로 입력 받은 것을 문자열 공백으로 나눈다.
+        String[] input = br.readLine().split(" ");
         int A = Integer.parseInt(input[0]);
         int B = Integer.parseInt(input[1]);
 
         System.out.println(A * B);
-
-        /*
-        Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println(a*b);
-         */
     }
 }
