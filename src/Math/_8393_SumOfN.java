@@ -1,4 +1,4 @@
-package Implementation;
+package Math;
 
 // 2026.03.20
 // 백준 8393
