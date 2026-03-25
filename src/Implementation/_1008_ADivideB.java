@@ -12,8 +12,8 @@ import java.util.StringTokenizer;
 public class _1008_ADivideB {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-        StringTokenizer st = new StringTokenizer(br.readLine());
-        double a = Integer.parseInt(st.nextToken());
+        StringTokenizer st = new StringTokenizer(br.readLine()); // StringTokenizer 통해 입력된 문자열 한 줄을 통째로 읽고,
+        double a = Integer.parseInt(st.nextToken()); // nextToken() 통해 띄어쓰기 기준으로 나눈다.
         double b = Integer.parseInt(st.nextToken());
 
         System.out.println(a/b);
