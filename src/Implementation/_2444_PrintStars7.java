@@ -2,7 +2,7 @@ package Implementation;
 
 // 26.03.29
 // 백준 2444
-// 별 만들기
+// 이중 별 만들기
 
 import java.util.Scanner;
 
