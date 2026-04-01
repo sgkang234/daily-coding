@@ -13,6 +13,7 @@ package implementation;
 (  /  )
  \(__)|
 */
+
 public class _10171_Cat {
     public static void main(String[] args) {
         // 출력
