@@ -9,10 +9,10 @@ package implementation;
 4
 
 [출력]
-*
-**
-***
-****
+    *
+   **
+  ***
+ ****
 */
 
 import java.io.BufferedReader;
