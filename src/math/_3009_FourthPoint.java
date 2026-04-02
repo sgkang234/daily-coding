@@ -1,8 +1,18 @@
-package Math;
+package math;
 
 // 26.04.01
 // 백준 3009
 // 세 점이 주어졌을 때, 축에 평행한 직사각형을 만들기 위해서 필요한 네 번째 점을 찾는 프로그램
+
+/*
+[입력]
+5 5
+5 7
+7 5
+
+[출력]
+7 7
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,6 +21,7 @@ import java.util.StringTokenizer;
 
 public class _3009_FourthPoint {
     public static void main(String[] args) throws IOException {
+        // 입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringBuilder sb = new StringBuilder();
         int[] x = new int[3];
@@ -20,6 +31,8 @@ public class _3009_FourthPoint {
             x[i] = Integer.parseInt(st.nextToken());
             y[i] = Integer.parseInt(st.nextToken());
         }
+
+        // 로직
         if(x[0] == x[1]){
             sb.append(x[2])
                     .append(" ");
@@ -40,6 +53,8 @@ public class _3009_FourthPoint {
             sb.append(y[0])
                     .append(" ");
         }
+
+        // 출력
         System.out.println(sb);
     }
 }
