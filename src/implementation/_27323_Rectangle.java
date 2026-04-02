@@ -6,11 +6,11 @@ package implementation;
 
 /*
 [입력]
-3
-40 80 60
+4
+4
 
 [출력]
-75.0
+16
 */
 
 import java.io.BufferedReader;
