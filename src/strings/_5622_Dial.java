@@ -1,4 +1,4 @@
-package String;
+package strings;
 
 // 26.03.28
 // 백준 5622
@@ -14,16 +14,26 @@ WXYZ → 10초
 사용자가 입력한 알파벳 문자열을 각 영단어에 따라 초를 재는 프로그램
 */
 
+/*
+[입력]
+WA
+
+[출력]
+13
+*/
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class _5622_Dial {
     public static void main(String[] args) throws IOException {
+        // 입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String s = br.readLine();
-        int time = 0;
 
+        // 로직
+        int time = 0;
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i); // 문자열을 문자로 형변환
 
@@ -36,6 +46,8 @@ public class _5622_Dial {
             else if (c <= 'V') time += 9;
             else if (c <= 'Z') time += 10;
         }
+
+        // 출력
         System.out.println(time);
     }
 }
