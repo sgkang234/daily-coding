@@ -1,8 +1,17 @@
-package Implementation;
+package implementation;
 
 // 26.03.24
 // 백준 10818
 // N개의 정수가 주어질 때  최솟값과 최댓값을 구하는 프로그램
+
+/*
+[입력]
+5
+20 10 35 30 7
+
+[출력]
+7 35
+*/
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -11,10 +20,13 @@ import java.util.StringTokenizer;
 
 public class _10818_MinMax {
     public static void main(String[] args) throws IOException {
+        // 입력
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
         StringTokenizer st = new StringTokenizer(br.readLine());
         int first = Integer.parseInt(st.nextToken());
+
+        // 로직
         int max = first;
         int min =first;
 
@@ -23,6 +35,8 @@ public class _10818_MinMax {
             if (num > max) max = num;
             if (num < min) min = num;
         }
+
+        // 출력
         System.out.println(min + " " + max);
     }
 }
