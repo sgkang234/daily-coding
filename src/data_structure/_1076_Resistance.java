@@ -29,7 +29,6 @@ public class _1076_Resistance {
         String color3 = br.readLine();
 
         // 로직
-        StringBuilder sb = new StringBuilder();
         Map<String, Integer> map = new HashMap<>();
         map.put("black", 0);
         map.put("brown", 1);
@@ -42,11 +41,10 @@ public class _1076_Resistance {
         map.put("grey", 8);
         map.put("white", 9);
 
-        sb.append(map.get(color1)).append(map.get(color2));
-        int num = map.get(color3);
-        for (int i = 0; i < num; i++) {
-            sb.append("0");
-        }
-        System.out.println(sb);
+        long value = map.get(color1) * 10 + map.get(color2);
+        long result = value * (long)Math.pow(10, map.get(color3));
+
+        // 출력
+        System.out.println(result);
     }
 }
