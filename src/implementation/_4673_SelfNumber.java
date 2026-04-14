@@ -21,6 +21,7 @@ import java.util.Arrays;
 
 public class _4673_SelfNumber {
     public static void main(String[] args) {
+        // 로직
         int max = 10000;
         boolean[] arr = new boolean[max + 1];
         Arrays.fill(arr, true);
@@ -33,19 +34,18 @@ public class _4673_SelfNumber {
                 sum += num % 10;
                 num /= 10;
             }
-
             if (sum <= max) {
                 arr[sum] = false;
             }
         }
 
+        // 출력
         StringBuilder sb = new StringBuilder();
         for (int i = 1; i <= max; i++) {
             if (arr[i]) {
                 sb.append(i).append("\n");
             }
         }
-
         System.out.println(sb);
     }
 }
